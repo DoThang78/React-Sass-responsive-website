@@ -1,0 +1,36 @@
+.header {
+    width: 100%;
+    height: 75vh;
+    color: $white;
+
+    @include bgImage("/images/1.jpg");
+    background-color: rgba(0, 0, 0, 0.6);
+    @include flexCenter;
+
+    &__content {
+        text-align: center;
+
+        &-h1 {
+            font-size: 75px;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+
+        &-links a {
+            text-decoration: none;
+            color: $white;
+            margin-left: 15px;
+            font-size: 17px;
+        }
+
+        &-span {
+            display: inline-block;
+            width: 2px;
+            height: 15px;
+            background: $white;
+            margin-left: 20px;
+            transform: rotate(10deg);
+        }
+    }
+}

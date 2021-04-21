@@ -1,0 +1,39 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.whiteBg {
+    background: $white;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    a {
+        color: $black !important;
+    }
+}
+
+.transparentBg {
+    background: transparent;
+    a {
+        color: $white;
+    }
+}
+
+.pl-10 {
+    padding-left: 10px !important;
+}
+
+.col-4 + .col-4 {
+    padding-left: 15px;
+}
+
+.z-index {
+    z-index: 10;
+}
+
+.mgT-60 {
+    margin-top: 60px;
+}
+
+.relative {
+    position: relative;
+}
